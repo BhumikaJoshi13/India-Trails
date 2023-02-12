@@ -1,0 +1,19 @@
+.navdiv{
+    float: left;
+}
+
+#image1{
+    
+    animation-name: move;
+    animation-duration: 5s;
+}
+@keyframes move{
+    100%{position: fixed; margin: 25px;}
+}
+#para1{
+    margin-top: 15px;
+    animation-name:right ;
+    animation-duration: 5s;
+}
+
+
